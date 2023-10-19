@@ -59,7 +59,7 @@ int main(){
 		
 #include<stdio.h>
 #include<conio.h>
-																//İF ELSE
+																//ÃF ELSE
 int main(){
 
 	int vize;
@@ -76,7 +76,7 @@ int main(){
 	
 	else if(vize >= 50){ printf("Kosullu dersi gectiniz. "); }
 	
-	else{ printf("Dersten Kaldınız. "); }
+	else{ printf("Dersten KaldÃ½nÃ½z. "); }
 	
 	getch();
 	return 0;
@@ -87,10 +87,10 @@ int main(){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
-																//SWİTCH CASE
+																//SWÃTCH CASE
 #include<stdio.h>
 #include<conio.h>
-																			//break komutunun önemini unutma!
+																			//break komutunun Ã¶nemini unutma!
 int main(){
 
 	int renk = 1;
@@ -127,7 +127,7 @@ int main(){
 		c=1.0/3;						// float = float/int
 		d=1.0/3.0;						// float = f/f
 		e=(float) 1/3;
-		f=(float) (1/3);					// () parantez öncelikli!! tip zorlaması aka type-casting
+		f=(float) (1/3);					// () parantez Ã¶ncelikli!! tip zorlamasÃ½ aka type-casting
 		
 		printf("a=%f \n",a);
 		printf("b=%f \n",b);
@@ -148,7 +148,7 @@ int main(){
 
 #include<stdio.h>
 #include<conio.h>
-															//WHİLE DÖNGÜSÜ
+															//WHÃLE DÃ–NGÃœSÃœ
 int main(){
 
 	int x;
@@ -170,7 +170,7 @@ return 0;
 /*
 #include<stdio.h>
 #include<conio.h>
-															//DO DÖNGÜSÜ //düzelt!
+															//DO DÃ–NGÃœSÃœ //dÃ¼zelt!
 int main(){
 
 	int x;
@@ -186,10 +186,10 @@ int main(){
 */
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+/*
 #include<stdio.h>
 #include<conio.h>
-															//FOR DÖNGÜSÜ
+															//FOR DÃ–NGÃœSÃœ
 int main(){
 
 int i;
@@ -199,8 +199,33 @@ for(i=0; i<=50; i++) { printf("%d Beykent \n",i); }
 		
 
 }
+*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 3.hafta
+/*
+#include<stdio.h>
+#include<conio.h>		//hipotenus bulma
+
+float hypo(float,float);
+
+int main(){
+	float x,y,z;
+
+printf("1.kenari giriniz...\n");
+scanf("%f",&x);
+printf("2.kenari giriniz...\n");
+scanf("%f",&y);
+
+z=hypo(x,y);
+printf("Hipotenus %f uzunluÄŸunda\n",z);
 
 
+
+}
+
+float hypo(float a, float b){
+	return(sqrt(a*a + b*b))
+}
+*/
 
 
 
