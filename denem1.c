@@ -228,8 +228,26 @@ float hypo(float a, float b){
 */
 
 
+///////////////////////////////////////////////////////////////////////////////////////
 
-
+/*
+#include <stdio.h>//printf,scanf
+#include <stdlib.h>//mallob
+int main()
+{
+    char *name,*surname;
+    name = (char *)malloc(21);
+    surname = (char *)malloc(21);
+    
+    puts("Enter a Name: ");
+                gets(name);
+    
+    puts("Enter a Surname: ");
+                gets(surname);
+    printf("%s %c.\n", name, *surname);
+return 0;
+}
+*/
 
 
 
