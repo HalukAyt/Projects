@@ -248,10 +248,88 @@ int main()
 return 0;
 }
 */
+/////////////////////////////////////////////////////////////////////////////
+#include<stdio.h>//printf, scanf
+#include<stdlib.h>//malloc
 
+int main(){
+    
+    char *mesaj="Welcome";
+    char isim[]={'t','o',' ','c','l','a','s','s'};
+    printf("%s,%s \n",mesaj,isim);
+    
+    return 0;
+}
+//////////////////////////////////////////////////////////////////////////////
+#include<stdio.h>//printf, scanf
+#include<stdlib.h>//malloc
 
+int main(){
+    
+    char *str;
+    str ="Welcome to C";
+    
+    printf("%c",*(str+ 1));
+    return 0;
+}
 
+////////////////////////////////////////////////////////////////////////////////
 
+#include<stdio.h>//printf, scanf
+#include<stdlib.h>//malloc
+
+int cntch(char str[],char ch);
+
+int main(){
+    
+
+char str[21],k;
+int sayi;
+printf("Enter a String: ");
+scanf("%s",str);
+printf("Enter a Character: ");
+k = getch();
+sayi=cntch(str,k);
+printf("%d\n",sayi);
+getch();
+
+    return 0;
+    
+    int cntch(char str[],char ch){
+        int sayac=0,i=0;
+        while(str[i]){
+            if(str[i++]==ch)
+            sayac++
+        }
+        return sayac;
+        T
+    }
+}
+
+/////////////////////////////////////////////////////
+
+#include<stdio.h>
+#include<stdlib.h>		//structure
+#include<string.h>
+
+struct Ogrenci{
+    char isim[30];
+    int yas;
+    int numara;
+    
+};
+
+int main(){
+    struct Ogrenci ogrenci1;
+    strcpy(ogrenci1.isim,"Haluk Aytis");
+    ogrenci1.yas=21;
+    ogrenci1.numara=123;
+    
+    printf("Ogrenci Adi: %s\n",ogrenci1.isim);
+    printf("Ogrenci Yasi: %d\n",ogrenci1.yas);
+    printf("Ogrenci Numarasiı: %d\n",ogrenci1.numara);
+    return 0;
+}
 
 
 
